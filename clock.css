@@ -1,0 +1,68 @@
+body{
+ background-color: black;
+}
+#clockcontainer {
+    position: relative;
+    height: 38vw;
+    width: 38vw;
+    background: url(/pngwing.com.png) no-repeat;
+    border: 10px solid rgb(75, 75, 75);
+    background-color:rgb(201, 201, 201);
+    background-size: 100%;
+    margin: auto;
+    border-radius: 100px;
+}
+
+#center {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    height: 6%;
+    width: 6%;
+    top: 47%;
+    left: 47%;
+    opacity: 0.7;
+}
+#minicenter{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    height: 3%;
+    width: 3%;
+    top: 48.5%;
+    left: 48.5%;
+}
+
+#hour {
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    height: 20.8%;
+    width: 2%;
+    top: 29%;
+    left: 49.3%;
+    transform-origin: bottom;
+    opacity: 0.9;
+}
+#min{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    height: 32%;
+    width: 1%;
+    top: 17.9%;
+    left: 49.5%;
+    transform-origin: bottom;
+    opacity: 0.9;
+}
+#sec{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    height: 40%;
+    width: 0.5%;
+    top: 10%;
+    left: 49.7%;
+    transform-origin: bottom;
+    opacity: 0.9;
+}
